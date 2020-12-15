@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Cw3.DAL;
+using System.Data.SqlClient;
 using Cw3.Models;
 using Microsoft.AspNetCore.Mvc;
 
@@ -12,36 +10,65 @@ namespace Cw3.Controllers
     [ApiController]
     public class StudentsController : ControllerBase
     {
-        private readonly IDbService _dbService;
-
-        public StudentsController(IDbService dbService)
-        {
-            _dbService = dbService;
-        }
+        private const string ConnectionStr = "Data Source=db-mssql;Initial Catalog=s16537;Integrated Security=True";
 
         [HttpGet] //metoda odpowiada tylko na GET
-        public IActionResult GetStudents(string orderBy)
+        public IActionResult GetStudents()
         {
-            return Ok(_dbService.GetStudents());
+            var list = new List<Student>();
+
+            using (var connection = new SqlConnection(ConnectionStr))
+            using (var cmd = new SqlCommand())
+            {
+                cmd.Connection = connection;
+                cmd.CommandText = "select * from Student";
+
+                connection.Open();
+                var dr = cmd.ExecuteReader();
+                while (dr.Read())
+                {
+                    var st = new Student();
+                    st.IndexNumber = dr["IndexNumber"].ToString();
+                    st.FirstName = dr["FirstName"].ToString();
+                    st.LastName = dr["LastName"].ToString();
+
+                    list.Add(st);
+                }
+            }
+
+
+            return Ok(list);
         }
 
         [HttpGet("{id}")]
-        public IActionResult GetStudent(int id)
+        public IActionResult GetEnrollmentForStudent(string id)
         {
-            if (id == 1)
+            var list = new List<Enrollment>();
+
+            using (var connection = new SqlConnection(ConnectionStr))
+            using (var cmd = new SqlCommand())
             {
-                return Ok("Ziobro");
-            }
-            else if (id == 2)
-            {
-                return Ok("Stonoga");
-            }
-            else if (id == 3)
-            {
-                return Ok("Kowalski");
+                cmd.Connection = connection;
+                cmd.CommandText = "SELECT E.IdEnrollment, Semester, IdStudy, StartDate FROM Enrollment AS E JOIN" +
+                    " STUDENT ON E.IdEnrollment = Student.IdEnrollment WHERE Student.IndexNumber=@id";
+                cmd.Parameters.AddWithValue("id", id);
+
+                connection.Open();
+                var dr = cmd.ExecuteReader();
+                while (dr.Read())
+                {
+                    var en = new Enrollment();
+                    en.IdEnrollment = dr["IdEnrollment"].ToString();
+                    en.Semester = dr["Semester"].ToString();
+                    en.IdStudy = dr["IdStudy"].ToString();
+                    en.StartDate = dr["StartDate"].ToString();
+
+                    list.Add(en);
+                }
             }
 
-            return NotFound("Nie znaleziono studenta.");
+
+            return Ok(list);
         }
 
         [HttpPost]
@@ -58,8 +85,7 @@ namespace Cw3.Controllers
         {
             //.. add to db
             //generate index number
-            student.IndexNumber = $"s{new Random().Next(1, 20000)}";
-            student.IdStudent = id;
+            
             return Ok("Aktualizacja zakonczona.");
         }
 
