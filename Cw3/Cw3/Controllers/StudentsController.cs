@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Cw3.Controllers
 {
-    [Route("api/students")]
+    [Route("api/[controller]")]
     [ApiController]
     public class StudentsController : ControllerBase
     {
@@ -40,6 +40,7 @@ namespace Cw3.Controllers
             return Ok(list);
         }
 
+        /*
         [HttpGet("{id}")]
         public IActionResult GetEnrollmentForStudent(string id)
         {
@@ -70,6 +71,7 @@ namespace Cw3.Controllers
 
             return Ok(list);
         }
+        */
 
         [HttpPost]
         public IActionResult CreateStudent(Student student)
