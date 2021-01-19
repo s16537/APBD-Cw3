@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using Cw3.Models;
+using Cw3.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Cw3.Controllers
@@ -10,32 +11,17 @@ namespace Cw3.Controllers
     [ApiController]
     public class StudentsController : ControllerBase
     {
-        private const string ConnectionStr = "Data Source=db-mssql;Initial Catalog=s16537;Integrated Security=True";
+        private IStudentsDbService _service;
+
+        public StudentsController(IStudentsDbService service)
+        {
+            _service = service;
+        }
 
         [HttpGet] //metoda odpowiada tylko na GET
         public IActionResult GetStudents()
         {
-            var list = new List<Student>();
-
-            using (var connection = new SqlConnection(ConnectionStr))
-            using (var cmd = new SqlCommand())
-            {
-                cmd.Connection = connection;
-                cmd.CommandText = "select * from Student";
-
-                connection.Open();
-                var dr = cmd.ExecuteReader();
-                while (dr.Read())
-                {
-                    var st = new Student();
-                    st.IndexNumber = dr["IndexNumber"].ToString();
-                    st.FirstName = dr["FirstName"].ToString();
-                    st.LastName = dr["LastName"].ToString();
-
-                    list.Add(st);
-                }
-            }
-
+            var list = _service.GetStudents();
 
             return Ok(list);
         }
