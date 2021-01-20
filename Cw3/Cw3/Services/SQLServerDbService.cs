@@ -115,6 +115,36 @@ namespace Cw3.Services
             }
         }
 
+        public Student GetStudent(string index)
+        {
+            var list = new List<Student>();
+
+            using (var connection = new SqlConnection(ConnectionStr))
+            using (var cmd = new SqlCommand())
+            {
+                cmd.Connection = connection;
+                cmd.CommandText = "select * from Student where IndexNumber=@index";
+                cmd.Parameters.AddWithValue("@index", index);
+
+                connection.Open();
+                var dr = cmd.ExecuteReader();
+                if (!dr.Read()) // nie ma takiego studenta 
+                {
+                    return null;
+                }
+                else
+                {
+                    var st = new Student();
+                    st.IndexNumber = dr["IndexNumber"].ToString();
+                    st.FirstName = dr["FirstName"].ToString();
+                    st.LastName = dr["LastName"].ToString();
+
+                    return st;
+                }
+
+            }
+        }
+
         public List<Student> GetStudents()
         {
             var list = new List<Student>();

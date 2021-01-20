@@ -13,5 +13,6 @@ namespace Cw3.Services
         Enrollment EnrollStudent(AddStudentRequest request);
         Enrollment PromoteStudents(PromoteStudentsRequest request);
         List<Student> GetStudents();
+        Student GetStudent(string index);
     }
 }

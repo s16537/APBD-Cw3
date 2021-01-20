@@ -1,0 +1,17 @@
+[1/20/2021 6:35:37 AM]: Path: /api/students, Method: GET, Query String: , Body: 
+[1/20/2021 6:36:23 AM]: Path: /api/students, Method: GET, Query String: , Body: 
+[1/20/2021 6:36:30 AM]: Path: /api/students, Method: GET, Query String: , Body: 
+[1/20/2021 6:36:41 AM]: Path: /api/students, Method: GET, Query String: , Body: 
+[1/20/2021 6:37:30 AM]: Path: /api/students, Method: GET, Query String: , Body: 
+[1/20/2021 6:38:00 AM]: Path: /api/enrollments/promotions, Method: POST, Query String: , Body: {
+    "Studies": "IT",
+    "Semester": 5
+}
+[1/20/2021 6:38:06 AM]: Path: /api/enrollments/promotions, Method: POST, Query String: , Body: {
+    "Studies": "IT",
+    "Semester": 5
+}
+[1/20/2021 6:38:12 AM]: Path: /api/enrollments/promotions, Method: POST, Query String: , Body: {
+    "Studies": "IT",
+    "Semester": 5
+}
