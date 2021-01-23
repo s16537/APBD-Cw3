@@ -15,3 +15,382 @@
     "Studies": "IT",
     "Semester": 5
 }
+[1/23/2021 11:42:59 AM]: Path: /api/students, Method: GET, Query String: , Body: 
+[1/23/2021 11:43:00 AM]: Path: /favicon.ico, Method: GET, Query String: , Body: 
+[1/23/2021 11:43:14 AM]: Path: /api/students, Method: GET, Query String: , Body: 
+[1/23/2021 11:44:22 AM]: Path: /api/students, Method: GET, Query String: , Body: {
+    "login" : "xyz",
+    "password" : "abc"
+}
+[1/23/2021 11:44:31 AM]: Path: /api/students, Method: POST, Query String: , Body: {
+    "login" : "xyz",
+    "password" : "abc"
+}
+[1/23/2021 11:44:40 AM]: Path: /api/students, Method: POST, Query String: , Body: {
+    "login" : "xyz",
+    "password" : "abc"
+}
+[1/23/2021 11:44:41 AM]: Path: /api/students, Method: POST, Query String: , Body: {
+    "login" : "xyz",
+    "password" : "abc"
+}
+[1/23/2021 11:44:42 AM]: Path: /api/students, Method: POST, Query String: , Body: {
+    "login" : "xyz",
+    "password" : "abc"
+}
+[1/23/2021 11:44:43 AM]: Path: /api/students, Method: POST, Query String: , Body: {
+    "login" : "xyz",
+    "password" : "abc"
+}
+[1/23/2021 11:44:44 AM]: Path: /api/students, Method: POST, Query String: , Body: {
+    "login" : "xyz",
+    "password" : "abc"
+}
+[1/23/2021 11:44:45 AM]: Path: /api/students, Method: POST, Query String: , Body: {
+    "login" : "xyz",
+    "password" : "abc"
+}
+[1/23/2021 11:44:45 AM]: Path: /api/students, Method: POST, Query String: , Body: {
+    "login" : "xyz",
+    "password" : "abc"
+}
+[1/23/2021 11:44:46 AM]: Path: /api/students, Method: POST, Query String: , Body: {
+    "login" : "xyz",
+    "password" : "abc"
+}
+[1/23/2021 11:44:47 AM]: Path: /api/students, Method: POST, Query String: , Body: {
+    "login" : "xyz",
+    "password" : "abc"
+}
+[1/23/2021 11:44:48 AM]: Path: /api/students, Method: POST, Query String: , Body: {
+    "login" : "xyz",
+    "password" : "abc"
+}
+[1/23/2021 11:45:16 AM]: Path: /api/students, Method: GET, Query String: , Body: 
+[1/23/2021 11:45:26 AM]: Path: /api/students, Method: GET, Query String: , Body: 
+[1/23/2021 11:46:41 AM]: Path: /api/students, Method: GET, Query String: , Body: 
+[1/23/2021 11:46:42 AM]: Path: /favicon.ico, Method: GET, Query String: , Body: 
+[1/23/2021 11:46:45 AM]: Path: /api/students, Method: GET, Query String: , Body: 
+[1/23/2021 11:46:51 AM]: Path: /api/students, Method: GET, Query String: , Body: 
+[1/23/2021 11:47:04 AM]: Path: /api/students, Method: POST, Query String: , Body: 
+[1/23/2021 11:47:13 AM]: Path: /api/students, Method: POST, Query String: , Body: 
+[1/23/2021 11:47:16 AM]: Path: /api/students, Method: POST, Query String: , Body: 
+[1/23/2021 11:47:21 AM]: Path: /api/students, Method: POST, Query String: , Body: 
+[1/23/2021 11:47:23 AM]: Path: /api/students, Method: POST, Query String: , Body: 
+[1/23/2021 11:47:36 AM]: Path: /api/students, Method: POST, Query String: , Body: 
+[1/23/2021 11:49:51 AM]: Path: /api/students, Method: GET, Query String: , Body: 
+[1/23/2021 11:49:52 AM]: Path: /favicon.ico, Method: GET, Query String: , Body: 
+[1/23/2021 11:49:54 AM]: Path: /api/students, Method: POST, Query String: , Body: 
+[1/23/2021 11:49:56 AM]: Path: /api/students, Method: POST, Query String: , Body: 
+[1/23/2021 11:50:00 AM]: Path: /api/students, Method: GET, Query String: , Body: 
+[1/23/2021 11:50:16 AM]: Path: /api/students, Method: GET, Query String: , Body: 
+[1/23/2021 11:50:22 AM]: Path: /api/students, Method: POST, Query String: , Body: {
+    "login" : "xyz",
+    "password" : "abc"
+}
+[1/23/2021 11:50:37 AM]: Path: /api/students, Method: GET, Query String: , Body: 
+[1/23/2021 11:51:07 AM]: Path: /api/students, Method: POST, Query String: , Body: {
+    "login" : "xyz",
+    "password" : "abc"
+}
+[1/23/2021 11:51:18 AM]: Path: /api/students, Method: GET, Query String: , Body: 
+[1/23/2021 11:51:26 AM]: Path: /api/students, Method: GET, Query String: , Body: 
+[1/23/2021 11:52:15 AM]: Path: /api/students, Method: GET, Query String: , Body: 
+[1/23/2021 11:52:15 AM]: Path: /favicon.ico, Method: GET, Query String: , Body: 
+[1/23/2021 11:52:18 AM]: Path: /api/students, Method: POST, Query String: , Body: {
+    "login" : "xyz",
+    "password" : "abc"
+}
+[1/23/2021 11:52:28 AM]: Path: /api/students, Method: GET, Query String: , Body: 
+[1/23/2021 11:58:46 AM]: Path: /api/students, Method: GET, Query String: , Body: 
+[1/23/2021 11:58:47 AM]: Path: /favicon.ico, Method: GET, Query String: , Body: 
+[1/23/2021 11:59:01 AM]: Path: /api/enrollments, Method: POST, Query String: , Body: {
+    "Studies": "IT",
+    "Semester": 5
+}
+[1/23/2021 12:00:08 PM]: Path: /api/enrollments/promotions, Method: POST, Query String: , Body: {
+    "Semester" : 1,
+    "Studies" : "IT"
+}
+[1/23/2021 12:00:17 PM]: Path: /api/enrollments/promotions, Method: POST, Query String: , Body: {
+    "Semester" : 1,
+    "Studies" : "IT"
+}
+[1/23/2021 12:00:35 PM]: Path: /api/enrollments/promotions, Method: POST, Query String: , Body: {
+    "Semester" : 1,
+    "Studies" : "IT"
+}
+[1/23/2021 12:14:36 PM]: Path: /api/students, Method: GET, Query String: , Body: 
+[1/23/2021 12:14:37 PM]: Path: /favicon.ico, Method: GET, Query String: , Body: 
+[1/23/2021 12:14:52 PM]: Path: /api/students, Method: POST, Query String: , Body: {
+    "login" : "xyz",
+    "password" : "abc"
+}
+[1/23/2021 12:15:02 PM]: Path: /api/students, Method: POST, Query String: , Body: {
+    "login" : "s000",
+    "password" : "pass"
+}
+[1/23/2021 12:29:16 PM]: Path: /api/students, Method: POST, Query String: , Body: {
+    "login" : "s000",
+    "password" : "pass"
+}
+[1/23/2021 12:48:04 PM]: Path: /api/students, Method: GET, Query String: , Body: 
+[1/23/2021 12:48:05 PM]: Path: /favicon.ico, Method: GET, Query String: , Body: 
+[1/23/2021 12:48:08 PM]: Path: /api/students, Method: POST, Query String: , Body: {
+    "login" : "s000",
+    "password" : "pass"
+}
+[1/23/2021 12:48:13 PM]: Path: /api/students, Method: GET, Query String: , Body: 
+[1/23/2021 12:48:25 PM]: Path: /api/students, Method: GET, Query String: , Body: 
+[1/23/2021 12:49:47 PM]: Path: /api/students, Method: GET, Query String: , Body: 
+[1/23/2021 1:01:15 PM]: Path: /api/students, Method: GET, Query String: , Body: 
+[1/23/2021 1:01:15 PM]: Path: /favicon.ico, Method: GET, Query String: , Body: 
+[1/23/2021 1:01:36 PM]: Path: /api/students, Method: POST, Query String: , Body: {
+    "login" : "s000",
+    "password" : "pass"
+}
+[1/23/2021 1:02:27 PM]: Path: /api/students/refresh-token, Method: GET, Query String: , Body: 
+[1/23/2021 1:02:36 PM]: Path: /api/students/refresh-token, Method: GET, Query String: , Body: 22f77191-c246-49b2-982c-2ae7b35b3de9
+[1/23/2021 1:02:42 PM]: Path: /api/students/refresh-token, Method: POST, Query String: , Body: 22f77191-c246-49b2-982c-2ae7b35b3de9
+[1/23/2021 1:03:03 PM]: Path: /api/students/refresh-token, Method: POST, Query String: , Body: 
+[1/23/2021 1:03:31 PM]: Path: /api/students/refresh-token, Method: POST, Query String: ?token=22f77191-c246-49b2-982c-2ae7b35b3de9, Body: 
+[1/23/2021 1:03:47 PM]: Path: /api/students/refresh-token, Method: POST, Query String: ?token=22f77191-c246-49b2-982c-2ae7b35b3de9, Body: 
+[1/23/2021 1:03:49 PM]: Path: /api/students/refresh-token, Method: POST, Query String: ?token=22f77191-c246-49b2-982c-2ae7b35b3de9, Body: 
+[1/23/2021 1:03:51 PM]: Path: /api/students/refresh-token, Method: POST, Query String: ?token=22f77191-c246-49b2-982c-2ae7b35b3de9, Body: 
+[1/23/2021 1:03:51 PM]: Path: /api/students/refresh-token, Method: POST, Query String: ?token=22f77191-c246-49b2-982c-2ae7b35b3de9, Body: 
+[1/23/2021 1:04:31 PM]: Path: /api/students, Method: GET, Query String: , Body: 
+[1/23/2021 1:04:32 PM]: Path: /favicon.ico, Method: GET, Query String: , Body: 
+[1/23/2021 1:04:34 PM]: Path: /api/students, Method: POST, Query String: , Body: {
+    "login" : "s000",
+    "password" : "pass"
+}
+[1/23/2021 1:04:45 PM]: Path: /api/students/refresh-token, Method: POST, Query String: ?token=e96279c0-2cf2-42fa-a689-6a80abf1424c, Body: 
+[1/23/2021 1:05:02 PM]: Path: /api/students/refresh-token/, Method: POST, Query String: ?token=e96279c0-2cf2-42fa-a689-6a80abf1424c, Body: 
+[1/23/2021 1:06:22 PM]: Path: /api/students, Method: GET, Query String: , Body: 
+[1/23/2021 1:06:22 PM]: Path: /favicon.ico, Method: GET, Query String: , Body: 
+[1/23/2021 1:06:28 PM]: Path: /api/students, Method: POST, Query String: , Body: {
+    "login" : "s000",
+    "password" : "pass"
+}
+[1/23/2021 1:06:54 PM]: Path: /api/students/refresh-token/, Method: POST, Query String: , Body: {
+    "token" : "fa3f7cc8-5ff4-435a-843f-c339aa27978e"
+} 
+[1/23/2021 1:06:58 PM]: Path: /api/students/refresh-token/, Method: POST, Query String: , Body: {
+    "token" : "fa3f7cc8-5ff4-435a-843f-c339aa27978e"
+} 
+[1/23/2021 1:07:42 PM]: Path: /api/students, Method: POST, Query String: , Body: {
+    "login" : "s000",
+    "password" : "pass"
+}
+[1/23/2021 1:07:51 PM]: Path: /api/students/refresh-token/, Method: POST, Query String: , Body: {
+    "token" : "e39817e2-ee8d-428d-a6bb-f16d0907c56e"
+} 
+[1/23/2021 1:13:03 PM]: Path: /api/students, Method: GET, Query String: , Body: 
+[1/23/2021 1:13:04 PM]: Path: /favicon.ico, Method: GET, Query String: , Body: 
+[1/23/2021 1:13:14 PM]: Path: /api/students, Method: POST, Query String: , Body: {
+    "login" : "s000",
+    "password" : "pass"
+}
+[1/23/2021 1:14:46 PM]: Path: /api/students/refresh-token/, Method: POST, Query String: , Body: {
+    "token" : "9a74d0f9-ad24-4846-a9b5-c3c141f57c46"
+} 
+[1/23/2021 1:14:56 PM]: Path: /api/students/refresh-token/, Method: POST, Query String: , Body: 9a74d0f9-ad24-4846-a9b5-c3c141f57c46
+[1/23/2021 1:39:33 PM]: Path: /api/students, Method: GET, Query String: , Body: 
+[1/23/2021 1:39:33 PM]: Path: /favicon.ico, Method: GET, Query String: , Body: 
+[1/23/2021 1:39:37 PM]: Path: /api/students, Method: POST, Query String: , Body: {
+    "login" : "s000",
+    "password" : "pass"
+}
+[1/23/2021 1:39:48 PM]: Path: /api/students/refresh-token/, Method: POST, Query String: , Body: {
+    "token" : "d57de8f8-f332-4498-98a4-f1a5a409751b"
+} 
+[1/23/2021 1:40:04 PM]: Path: /api/students, Method: POST, Query String: , Body: {
+    "login" : "s000",
+    "password" : "pass"
+}
+[1/23/2021 1:41:58 PM]: Path: /api/students, Method: GET, Query String: , Body: 
+[1/23/2021 1:41:59 PM]: Path: /favicon.ico, Method: GET, Query String: , Body: 
+[1/23/2021 1:42:01 PM]: Path: /api/students, Method: POST, Query String: , Body: {
+    "login" : "s000",
+    "password" : "pass"
+}
+[1/23/2021 1:42:11 PM]: Path: /api/students, Method: POST, Query String: , Body: {
+    "login" : "s000",
+    "password" : "pass"
+}
+[1/23/2021 1:42:35 PM]: Path: /api/students/refresh-token/, Method: POST, Query String: , Body: {
+    "token" : "d57de8f8-f332-4498-98a4-f1a5a409751b"
+} 
+[1/23/2021 1:43:00 PM]: Path: /api/students/refresh-token/, Method: POST, Query String: , Body: {
+    "token" : "d57de8f8-f332-4498-98a4-f1a5a409751b"
+} 
+[1/23/2021 1:43:04 PM]: Path: /api/students, Method: POST, Query String: , Body: {
+    "login" : "s000",
+    "password" : "pass"
+}
+[1/23/2021 1:43:29 PM]: Path: /api/students, Method: POST, Query String: , Body: {
+    "login" : "s000",
+    "password" : "pass"
+}
+[1/23/2021 1:44:16 PM]: Path: /api/students, Method: POST, Query String: , Body: {
+    "login" : "s000",
+    "password" : "pass"
+}
+[1/23/2021 1:44:47 PM]: Path: /api/students, Method: GET, Query String: , Body: 
+[1/23/2021 1:44:47 PM]: Path: /favicon.ico, Method: GET, Query String: , Body: 
+[1/23/2021 1:45:02 PM]: Path: /api/students, Method: POST, Query String: , Body: {
+    "login" : "s000",
+    "password" : "pass"
+}
+[1/23/2021 1:45:23 PM]: Path: /api/students, Method: POST, Query String: , Body: {
+    "login" : "s000",
+    "password" : "pass"
+}
+[1/23/2021 1:45:25 PM]: Path: /api/students, Method: POST, Query String: , Body: {
+    "login" : "s000",
+    "password" : "pass"
+}
+[1/23/2021 1:45:27 PM]: Path: /api/students, Method: POST, Query String: , Body: {
+    "login" : "s000",
+    "password" : "pass"
+}
+[1/23/2021 1:45:50 PM]: Path: /api/students, Method: POST, Query String: , Body: {
+    "login" : "s000",
+    "password" : "pass"
+}
+[1/23/2021 1:48:32 PM]: Path: /api/students, Method: GET, Query String: , Body: 
+[1/23/2021 1:48:33 PM]: Path: /favicon.ico, Method: GET, Query String: , Body: 
+[1/23/2021 1:48:35 PM]: Path: /api/students, Method: POST, Query String: , Body: {
+    "login" : "s000",
+    "password" : "pass"
+}
+[1/23/2021 1:48:45 PM]: Path: /api/students, Method: POST, Query String: , Body: {
+    "login" : "s000",
+    "password" : "pass"
+}
+[1/23/2021 1:49:15 PM]: Path: /api/students, Method: GET, Query String: , Body: 
+[1/23/2021 1:49:16 PM]: Path: /favicon.ico, Method: GET, Query String: , Body: 
+[1/23/2021 1:49:20 PM]: Path: /api/students, Method: POST, Query String: , Body: {
+    "login" : "s000",
+    "password" : "pass"
+}
+[1/23/2021 1:50:17 PM]: Path: /api/students, Method: GET, Query String: , Body: 
+[1/23/2021 1:50:18 PM]: Path: /favicon.ico, Method: GET, Query String: , Body: 
+[1/23/2021 1:50:22 PM]: Path: /api/students, Method: POST, Query String: , Body: {
+    "login" : "s000",
+    "password" : "pass"
+}
+[1/23/2021 1:50:43 PM]: Path: /api/students/refresh-token/, Method: POST, Query String: , Body: {
+    "token" : "f0b9cdac-8f18-41f7-98b7-e3020ae8ad22"
+} 
+[1/23/2021 1:51:13 PM]: Path: /api/students/, Method: GET, Query String: , Body: 
+[1/23/2021 1:51:20 PM]: Path: /api/students/, Method: GET, Query String: ?Index=s000, Body: 
+[1/23/2021 1:51:31 PM]: Path: /api/students/, Method: GET, Query String: , Body: 
+[1/23/2021 1:51:43 PM]: Path: /api/students/, Method: GET, Query String: , Body: 
+[1/23/2021 2:53:43 PM]: Path: /api/students, Method: GET, Query String: , Body: 
+[1/23/2021 2:53:44 PM]: Path: /favicon.ico, Method: GET, Query String: , Body: 
+[1/23/2021 2:54:06 PM]: Path: /api/enrollments/, Method: GET, Query String: , Body: 
+[1/23/2021 2:54:32 PM]: Path: /api/enrollments/, Method: GET, Query String: , Body: {
+    "login" : "s000",
+    "password" : "pass"
+}
+[1/23/2021 2:54:44 PM]: Path: /api/enrollments/, Method: GET, Query String: , Body: {
+    "login" : "s000",
+    "password" : "pass"
+}
+[1/23/2021 2:54:49 PM]: Path: /api/enrollments/, Method: POST, Query String: , Body: {
+    "login" : "s000",
+    "password" : "pass"
+}
+[1/23/2021 2:55:13 PM]: Path: /api/enrollments/refresh-token, Method: POST, Query String: , Body: {
+    "refreshToken": "6aef5993-7113-46d5-9547-1bb9e0817054"
+}
+[1/23/2021 2:57:13 PM]: Path: /api/students, Method: GET, Query String: , Body: 
+[1/23/2021 2:57:13 PM]: Path: /favicon.ico, Method: GET, Query String: , Body: 
+[1/23/2021 2:57:17 PM]: Path: /api/students/refresh-token/, Method: POST, Query String: , Body: {
+    "token" : "f0b9cdac-8f18-41f7-98b7-e3020ae8ad22"
+} 
+[1/23/2021 2:57:23 PM]: Path: /api/enrollments/refresh-token, Method: POST, Query String: , Body: {
+    "refreshToken": "6aef5993-7113-46d5-9547-1bb9e0817054"
+}
+[1/23/2021 2:59:29 PM]: Path: /api/students, Method: GET, Query String: , Body: 
+[1/23/2021 2:59:30 PM]: Path: /favicon.ico, Method: GET, Query String: , Body: 
+[1/23/2021 2:59:32 PM]: Path: /api/enrollments/refresh-token, Method: POST, Query String: , Body: {
+    "token": "6aef5993-7113-46d5-9547-1bb9e0817054"
+}
+[1/23/2021 2:59:59 PM]: Path: /api/enrollments, Method: POST, Query String: , Body: {
+    "login" : "s000",
+    "password" : "pass"
+}
+[1/23/2021 3:00:08 PM]: Path: /api/enrollments/refresh-token, Method: POST, Query String: , Body: {
+    "token": "e7702c12-4459-41a6-9738-dac0dae1440a"
+}
+[1/23/2021 3:00:20 PM]: Path: /api/enrollments/refresh-token, Method: POST, Query String: , Body: {
+    "token": "e7702c12-4459-41a6-9738-dac0dae1440a"
+}
+[1/23/2021 3:00:46 PM]: Path: /api/enrollments/refresh-token, Method: POST, Query String: , Body: {
+    "token": "e7702c12-4459-41a6-9738-dac0dae1440a"
+}
+[1/23/2021 3:00:54 PM]: Path: /api/enrollments, Method: POST, Query String: , Body: {
+    "login" : "s000",
+    "password" : "pass"
+}
+[1/23/2021 3:01:03 PM]: Path: /api/enrollments/refresh-token, Method: POST, Query String: , Body: {
+    "token": "c4a4aafb-1f03-4a19-9732-e24da42d35d1"
+}
+[1/23/2021 3:01:41 PM]: Path: /api/students, Method: GET, Query String: , Body: 
+[1/23/2021 3:01:42 PM]: Path: /favicon.ico, Method: GET, Query String: , Body: 
+[1/23/2021 3:01:47 PM]: Path: /api/enrollments/refresh-token, Method: POST, Query String: , Body: {
+    "token": "c4a4aafb-1f03-4a19-9732-e24da42d35d1"
+}
+[1/23/2021 3:01:52 PM]: Path: /api/enrollments, Method: POST, Query String: , Body: {
+    "login" : "s000",
+    "password" : "pass"
+}
+[1/23/2021 3:02:01 PM]: Path: /api/enrollments/refresh-token, Method: POST, Query String: , Body: {
+    "token": "ddcccef6-3a6e-4042-b728-8a47a475f402"
+}
+[1/23/2021 3:02:32 PM]: Path: /api/enrollments/promotions, Method: POST, Query String: , Body: {
+    "Semester" : 1,
+    "Studies" : "IT"
+}
+[1/23/2021 3:02:40 PM]: Path: /api/enrollments/promotions, Method: POST, Query String: , Body: {
+    "Semester" : 1,
+    "Studies" : "IT"
+}
+[1/23/2021 3:24:30 PM]: Path: /api/students, Method: GET, Query String: , Body: 
+[1/23/2021 3:24:31 PM]: Path: /favicon.ico, Method: GET, Query String: , Body: 
+[1/23/2021 3:24:41 PM]: Path: /api/enrollments, Method: POST, Query String: , Body: {
+    "login" : "s000",
+    "password" : "password"
+}
+[1/23/2021 3:24:44 PM]: Path: /api/enrollments, Method: POST, Query String: , Body: {
+    "login" : "s000",
+    "password" : "password"
+}
+[1/23/2021 3:24:45 PM]: Path: /api/enrollments, Method: POST, Query String: , Body: {
+    "login" : "s000",
+    "password" : "password"
+}
+[1/23/2021 3:24:46 PM]: Path: /api/enrollments, Method: POST, Query String: , Body: {
+    "login" : "s000",
+    "password" : "password"
+}
+[1/23/2021 3:24:47 PM]: Path: /api/enrollments, Method: POST, Query String: , Body: {
+    "login" : "s000",
+    "password" : "password"
+}
+[1/23/2021 3:24:51 PM]: Path: /api/enrollments, Method: POST, Query String: , Body: {
+    "login" : "s000",
+    "password" : "password22"
+}
+[1/23/2021 3:25:28 PM]: Path: /api/students, Method: GET, Query String: , Body: 
+[1/23/2021 3:25:29 PM]: Path: /favicon.ico, Method: GET, Query String: , Body: 
+[1/23/2021 3:25:31 PM]: Path: /api/students, Method: POST, Query String: , Body: {
+    "login" : "s000",
+    "password" : "password22"
+}
+[1/23/2021 3:25:36 PM]: Path: /api/students, Method: POST, Query String: , Body: {
+    "login" : "s000",
+    "password" : "password"
+}

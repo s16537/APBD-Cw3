@@ -1,4 +1,5 @@
 ﻿using Cw3.DTOs;
+using Cw3.DTOs.Requests;
 using Cw3.Models;
 using System;
 using System.Collections.Generic;
@@ -208,6 +209,98 @@ namespace Cw3.Services
                 else
                 {
                     return null;
+                }
+            }
+        }
+
+        public void RevokeRefreshToken(string token)
+        {
+            using (var connection = new SqlConnection(ConnectionStr))
+            using (var cmd = new SqlCommand())
+            {
+                //zapisujemy refresh token do bazy
+                cmd.Connection = connection;
+                connection.Open();
+                var transaction = connection.BeginTransaction();
+
+                cmd.CommandText = "update RefreshTokens set IsValid = 0 where Token = @token";
+                cmd.Parameters.AddWithValue("@token", token);
+                cmd.ExecuteNonQuery();
+                transaction.Commit();
+            }
+        }
+
+        public void SaveRefreshToken(string token, string role)
+        {
+            using (var connection = new SqlConnection(ConnectionStr))
+            using (var cmd = new SqlCommand())
+            {
+                //zapisujemy refresh token do bazy
+                cmd.Connection = connection;
+                connection.Open();
+                var transaction = connection.BeginTransaction();
+                cmd.Transaction = transaction;
+
+                cmd.CommandText = "insert into RefreshTokens values (@token, @role, 1)";
+                cmd.Parameters.AddWithValue("@token", token);
+                cmd.Parameters.AddWithValue("@role", role);
+                cmd.ExecuteNonQuery();
+                transaction.Commit();
+            }
+        }
+
+        public bool VerifyLogin(LoginRequest request)
+        {
+            var login = request.Login;
+            var password = request.Password;
+
+            using (var connection = new SqlConnection(ConnectionStr))
+            using (var cmd = new SqlCommand())
+            {
+                cmd.Connection = connection;
+                cmd.CommandText = "select * from Student where IndexNumber=@login and Password=@password";
+                cmd.Parameters.AddWithValue("@login", login);
+                cmd.Parameters.AddWithValue("@password", password);
+
+                connection.Open();
+                var dr = cmd.ExecuteReader();
+                if (!dr.Read())
+                {
+                    return false; //niepoprawne dane logowania
+                }
+                else
+                {
+                    return true;
+                }
+            }
+        }
+
+        public bool VerifyRefreshToken(string token)
+        {
+            using (var connection = new SqlConnection(ConnectionStr))
+            using (var cmd = new SqlCommand())
+            {
+                cmd.Connection = connection;
+                cmd.CommandText = "select * from RefreshTokens where Token = @token and IsValid = 1";
+                cmd.Parameters.AddWithValue("@token", token);
+
+                connection.Open();
+                try
+                {
+                    var dr = cmd.ExecuteReader();
+                    if (!dr.Read())
+                    {
+                        return false; //nie znaleziono
+                    }
+                    else
+                    {
+                        return true;
+                    }
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.ToString());
+                    return false;
                 }
             }
         }
